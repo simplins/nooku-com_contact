@@ -1,0 +1,32 @@
+body {color: #000}
+
+#message-box {
+	margin: 0 auto; width: 300px;
+	text-align: center;
+}
+
+/* System Messages */
+#system-message    { margin-bottom: 10px; padding: 0;}
+#system-message dt { font-weight: bold; }
+#system-message dd { margin: 0; font-weight: bold; text-indent: 30px; }
+#system-message dd ul { color: #0055BB; margin-bottom: 10px; list-style: none; padding: 10px; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: hsla(0, 0%, 55%, 0.8) 0px 0px 5px;
+	-moz-box-shadow: hsla(0, 0%, 55%, 0.8) 0px 0px 5px;
+	box-shadow: hsla(0, 0%, 55%, 0.8) 0px 0px 5px;
+	border: 1px solid #AAA;
+}
+
+/* System Standard Messages */
+#system-message dt.message { display: none; }
+#system-message dd.message {  }
+
+/* System Error Messages */
+#system-message dt.error { display: none; }
+#system-message dd.error ul { color: #c00; background-color: #E6C0C0; }
+
+/* System Notice Messages */
+#system-message dt.notice { display: none; }
+#system-message dd.notice ul { color: #c00; background: #EFE7B8; }
