@@ -16,6 +16,8 @@ class ComContactViewCategoryHtml extends ComDefaultViewHtml
 
 		$model = KFactory::get('admin::com.contact.model.contacts');
 
+		//$this->setModel($model);
+
 		if ($catid) {
 			$model->set('catid', $catid);
 			$category = KFactory::get('admin::com.contact.model.categories')->set('id', $catid)->getItem();

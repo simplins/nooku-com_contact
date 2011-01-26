@@ -7,7 +7,7 @@
 		<?= @escape($params->get('page_title')); ?>
 	</div>
 <? endif; ?>
-<? echo '<pre>';print_r($contacts);echo '</pre>';?>
+
 <div class="contentpane<?= $pageclass_sfx; ?>">
 	<? /* ?>
 	<? if ($category->image OR $category->description): ?>
